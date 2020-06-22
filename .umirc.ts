@@ -1,8 +1,9 @@
 import { IConfig } from 'umi-types';
 
 // ref: https://umijs.org/config/
-const config: IConfig =  {
-  publicPath: './',
+const config: IConfig = {
+  base: '/antd-tree-table-dnd/',
+  publicPath: '/antd-tree-table-dnd/',
   treeShaking: true,
   routes: [
     {
@@ -21,7 +22,7 @@ const config: IConfig =  {
       dynamicImport: false,
       title: 'antd-tree-table-dnd',
       dll: false,
-      
+
       routes: {
         exclude: [
           /components\//,
