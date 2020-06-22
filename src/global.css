@@ -5,3 +5,8 @@ html, body, #root {
 body {
   margin: 0;
 }
+
+tr.drop-over td {
+  border-top: 2px dashed #1890ff;
+  border-bottom: 2px dashed #1890ff !important;
+}
