@@ -1,0 +1,17 @@
+{
+  "name": "@sjognad/antd-tree-table-dnd",
+  "version": "1.0.0",
+  "description": "antd tree table dnd lib",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build:es & npm run build:lib",
+    "build:es": "tsc --outDir es --module esnext --target es5",
+    "build:lib": "tsc --outDir lib --module commonjs --target es5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.1.0",
+    "typescript": "^3.7.2"
+  },
+  "author": "jaredwang",
+  "license": "MIT"
+}

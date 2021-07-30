@@ -1,0 +1,17 @@
+{
+  "name": "@sjognad/antd-tree-table-dnd-site",
+  "version": "1.0.0",
+  "description": "antd tree table dnd site",
+  "main": "index.js",
+  "scripts": {
+    "start": "umi dev",
+    "test": "umi test"
+  },
+  "dependencies": {
+    "umi": "^2.9.0",
+    "umi-plugin-react": "^1.8.0",
+    "umi-types": "^0.3.0"
+  },
+  "author": "jaredwang",
+  "license": "MIT"
+}
