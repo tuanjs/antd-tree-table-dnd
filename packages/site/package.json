@@ -8,7 +8,7 @@
     "test": "umi test"
   },
   "dependencies": {
-    "umi": "^2.9.0",
+    "umi": "^4.6.18",
     "umi-plugin-react": "^1.8.0",
     "umi-types": "^0.3.0"
   },
